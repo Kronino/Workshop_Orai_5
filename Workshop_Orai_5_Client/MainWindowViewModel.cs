@@ -28,8 +28,9 @@ namespace Workshop_Orai_5_Client
         {
             if(!IsInDesignMode)
             {
-                //Chairs = new RestCollection<Chair>();
+                Chairs = new RestCollection<Chair>("http://localhost:5034/", "chair", "hub");
             }
+
         }
     }
 }
