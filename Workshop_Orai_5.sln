@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workshop_Orai_5", "Workshop_Orai_5\Workshop_Orai_5.csproj", "{A4F6D047-83F5-4462-8BA7-ECE18F3D6F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop_Orai_5_Client", "Workshop_Orai_5_Client\Workshop_Orai_5_Client.csproj", "{F6315359-6FEA-44B1-A5B0-EC0A073BD413}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4F6D047-83F5-4462-8BA7-ECE18F3D6F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F6D047-83F5-4462-8BA7-ECE18F3D6F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F6D047-83F5-4462-8BA7-ECE18F3D6F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F6D047-83F5-4462-8BA7-ECE18F3D6F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6315359-6FEA-44B1-A5B0-EC0A073BD413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6315359-6FEA-44B1-A5B0-EC0A073BD413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6315359-6FEA-44B1-A5B0-EC0A073BD413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6315359-6FEA-44B1-A5B0-EC0A073BD413}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4477987-D4F6-4F05-B478-D79DCBD001A3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@Workshop_Orai_5_HostAddress = http://localhost:5174
+
+GET {{Workshop_Orai_5_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
