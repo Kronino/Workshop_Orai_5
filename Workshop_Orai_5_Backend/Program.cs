@@ -1,3 +1,7 @@
+using Microsoft.AspNetCore.OpenApi;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Workshop_Orai_5_Backend.Controllers;
+using Workshop_Orai_5_Backend.Services;
 
 namespace Workshop_Orai_5_Backend
 {
@@ -13,6 +17,7 @@ namespace Workshop_Orai_5_Backend
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddSignalR();
 
             var app = builder.Build();
 
@@ -27,6 +32,7 @@ namespace Workshop_Orai_5_Backend
 
 
             app.MapControllers();
+            app.MapHub<SignalRHub>("/hub");
 
             app.Run();
         }
